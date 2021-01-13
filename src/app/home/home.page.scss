@@ -1,0 +1,94 @@
+ion-card.card_box_recovered.md.hydrated {
+  height: 150px;
+  background: #f1fff5;
+}
+p.main_title_confirmed {
+  text-align: center;
+  margin-top: 9%;
+  font-family: "Oxygen", sans-serif;
+  font-size: 47px;
+  letter-spacing: 4px;
+  color: #E74E4E;
+  font-weight: bold;
+}
+p.main_title_recovered {
+  text-align: center;
+  margin-top: 9%;
+  font-family: "Oxygen", sans-serif;
+  font-size: 47px;
+  letter-spacing: 4px;
+  color: #39A26A;
+  font-weight: bold;
+}
+p.main_title_deaths {
+  text-align: center;
+  margin-top: 9%;
+  font-family: "Oxygen", sans-serif;
+  font-size: 47px;
+  letter-spacing: 4px;
+  color: #748498;
+  font-weight: bold;
+}
+ion-card.card_box_confirmed.md.hydrated {
+  height: 150px;
+  background: #FFF5F5;
+}
+
+ion-card.card_box_deaths.md.hydrated{
+  height: 150px;
+  background:#EDF2F7
+}
+
+.footer_confirmed {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-family: 'Oxygen', sans-serif;
+  background: #FED7D8;
+  max-height: 35px;
+}
+.footer_recovered {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  max-height: 35px;
+  font-family: 'Oxygen', sans-serif;
+  background: #C7F7D5;
+}
+.footer_deaths {
+  position: absolute;
+  bottom: 0px;
+  font-family: 'Oxygen', sans-serif;
+  width: 100%;
+  max-height: 35px;
+  background:#E2E8F0;
+}
+
+p.confirmed{
+  text-align: center;
+  color: #EF7778;
+  font-size: 17px;
+  margin-top: 2%;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+p.recovered{
+  text-align: center;
+  color: #5BB683;
+  font-size: 17px;
+  margin-top: 2%;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+p.deaths{
+  text-align: center;
+  color: #A4AFBE;
+  font-size: 17px;
+  margin-top: 2%;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+

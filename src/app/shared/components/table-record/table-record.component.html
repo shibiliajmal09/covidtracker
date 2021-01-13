@@ -1,0 +1,16 @@
+<table class="table-data">
+  <thead>
+      <tr >
+          <th >State</th>
+          <th>Confirmed</th>
+          <th>Recovered</th>
+          <th>Deaths</th>
+      </tr>
+      <tr *ngFor="let list of state_data">
+        <th class="state" [ngClass]="{'active': active_menu === list}" (click)="gotoStateRecord(list.districtData)">{{list.state}}</th>
+        <th>{{list.confirmed | number}}</th>
+        <th>{{list.recovered | number}}</th>
+        <th>{{list.deaths | number}}</th>
+      </tr>
+  </thead>
+</table>

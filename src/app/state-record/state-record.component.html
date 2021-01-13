@@ -1,0 +1,14 @@
+
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title style="text-align: center;">
+        COVID TRACKER
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+    <app-table-record [state_data]="state_data"  *ngIf="state_data" style="
+    position: relative;
+    top: 4%;
+;"></app-table-record>
+</ion-content>

@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">
+      COVID TRACKER
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row *ngIf="main_data">
+      <ion-col size="12" size-sm>
+   
+        <ion-card class="card_box_confirmed">
+          <div class="ion-text-center"> <p class="main_title_confirmed">{{main_data.confirmed | number}}</p></div>
+          <div class="footer_confirmed">
+            <p class="confirmed">Confirmed</p>
+          </div>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12" size-sm>
+        <ion-card class="card_box_recovered">
+          <div class="ion-text-center"> <p class="main_title_recovered">{{main_data.recovered | number}}</p></div>
+          <div class="footer_recovered">
+            <p class="recovered">Recovered</p>
+          </div>
+        </ion-card>
+      
+      </ion-col>
+    
+      <ion-col size="12" size-sm>
+      
+          <ion-card class="card_box_deaths">
+            <div class="ion-text-center"> <p class="main_title_deaths">{{main_data.deaths | number}}</p></div>
+            <div class="footer_deaths">
+              <p class="deaths">Deaths</p>
+            </div>
+          </ion-card>
+      
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+  <app-table-record [state_data]="state_data" (clickEvent)="getClickEvent($event)" *ngIf="state_data">
+
+  </app-table-record>
+</ion-content>

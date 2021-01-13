@@ -1,0 +1,25 @@
+th{
+    text-align: center;
+    width: 100px;
+    border: .5px solid #cccc;
+    padding: 8px;
+    font-weight: bold;
+    height: 59px;
+    font-family: 'Oxygen', sans-serif;
+  }
+  table.table-data {
+    margin: 11px auto;
+    width: 90%;
+    position: relative;
+    top: -2%;
+  }
+
+th.state  {
+  background: #EDF2F7;
+  color: black;
+  letter-spacing: 2px;
+}
+th.state.active {
+  background: #118886;
+  color: #ffff;
+}
